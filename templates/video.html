@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block content %}
+<center>
+    {%if data=='emotion': %}
+    <img style="box-shadow: 0 0 10px black;" class="img img-fluid img-thumbnail" src="{{ url_for('video_emotion') }}">
+    {%else%}
+    <img style="box-shadow: 0 0 10px black;" class="img img-fluid img-thumbnail" src="{{ url_for('video_Hand') }}">
+    {%endif%}
+</center>
+{% endblock %}
