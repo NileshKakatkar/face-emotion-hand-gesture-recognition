@@ -1,0 +1,8 @@
+Flask
+gunicorn
+Keras
+numpy
+Pillow
+tensorflow
+opencv-python
+mediapipe
